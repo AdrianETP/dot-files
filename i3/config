@@ -211,7 +211,7 @@ exec_always setxkbmap -option "caps:ctrl_modifier"
 exec_always setxkbmap  dvorak
 bindsym $mod+Control+p exec setxkbmap -layout es
 bindsym $mod+Control+r exec setxkbmap -layout dvorak
-exec_always feh --bg-scale ~/Pictures/cloudy_mountain.jpg
+exec_always feh --bg-scale ~/Pictures/tokyo.jpg
 exec_always compton
 
 # make copyq floating
