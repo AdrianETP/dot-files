@@ -7,7 +7,6 @@ return {
         },
         config = function()
             -- local fb_actions = require "telescope".extensions.file_browser.actions
-            print("telescope")
             local telescope = require("telescope")
             telescope.setup({
                 extensions = {
