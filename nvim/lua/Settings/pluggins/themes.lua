@@ -14,7 +14,7 @@ return {
         "projekt0n/github-nvim-theme",
         tag = "v0.0.7",
         config = function()
-            vim.cmd('colorscheme github_dark')
+            vim.cmd('colorscheme github_dark_colorblind')
             setTransparent()
         end
     },
