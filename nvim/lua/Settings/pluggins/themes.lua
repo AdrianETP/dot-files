@@ -8,19 +8,15 @@ return {
         "catppuccin/nvim",
         name = "catppuccin",
         priority = 1000,
-        config = function()
-            vim.cmd('colorscheme catppuccin-macchiato')
-            setTransparent()
-        end
 
     },
     {
         "projekt0n/github-nvim-theme",
         tag = "v0.0.7",
-        -- config = function()
-        --     vim.cmd('colorscheme github_dimmed')
-        -- end
-        keys = "<leader>pc",
+        config = function()
+            vim.cmd('colorscheme github_dark')
+            setTransparent()
+        end
     },
 
     -- vscode

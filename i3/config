@@ -45,8 +45,6 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec alacritty
 
-workspace_layout stacking
-
 # kill focused window
 bindsym $mod+q kill
 
@@ -225,7 +223,7 @@ assign [class="Alacritty"] $ws1
 assign [class="Brave-browser"] $ws2
 assign [class="zoom"] $ws3
 assign [class="discord"] $ws3
-assign [class="firefox"] $ws4
+assign [class="Firefox-esr"] $ws4
 assign [class="Org.gnome.Nautilus"] $ws5
 assign [class="libreoffice-startcenter"] $ws6
 assign [class="Postman"] $ws7
