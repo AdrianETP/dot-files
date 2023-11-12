@@ -10,7 +10,7 @@ else
 fi
 
 # installations with homebrew 
-brew install nvim tmux fzf zoxide 
+brew install nvim tmux fzf zoxide brave-browser raycast
 
 git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm -y
 
