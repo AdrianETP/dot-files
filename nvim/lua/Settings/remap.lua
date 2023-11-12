@@ -1,11 +1,11 @@
 vim.g.mapleader = " "
 -- explore
 vim.keymap.set("n", "<leader>pv", function()
-	vim.cmd("Ex")
+    vim.cmd("Ex")
 end)
 -- quit
 vim.keymap.set("n", "<leader><Enter>", function()
-	vim.cmd("qa!")
+    vim.cmd("qa!")
 end)
 
 -- C-D , C-U
