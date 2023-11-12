@@ -29,6 +29,12 @@ sudo apt install copyq -y
 # alacritty
 sudo apt install alacritty -y
 
+# picom
+sudo apt install picom -y
+
+# i3 blocks
+sudo apt install i3blocks
+
 # installations with homebrew 
 brew install nvim tmux fzf zoxide 
 
