@@ -1,0 +1,23 @@
+{
+    "workbench.colorTheme": "Catppuccin Frappé",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "editor.accessibilitySupport": "on",
+    "window.zoomLevel": 1,
+    "workbench.iconTheme": "catppuccin-frappe",
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder":false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.guides.indentation":false,
+    "indenticator.width": 0.1,
+    "indenticator.color.dark": "rgba(255,255,255,0.1)",
+    "editor.matchBrackets": "never",
+    "breadcrumbs.enabled": false,
+    "editor.glyphMargin": false,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "hidden",
+    "keyboard.touchbar.enabled": false,
+    "workbench.activityBar.location": "top"
+}

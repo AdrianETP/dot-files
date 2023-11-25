@@ -5,12 +5,13 @@ else
     echo "homebrew is not installed, installing homebrew"
     sudo apt install curl
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    rm ~/.zshrc
-    cp ~/.config/zshrcmac ~/.zshrc
 fi
 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # installations with homebrew 
 brew install nvim tmux fzf zoxide brave-browser raycast
 
-git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm -y
+rm -rf ~/.config/tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+
 

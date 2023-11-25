@@ -13,10 +13,10 @@ return {
     {
         "projekt0n/github-nvim-theme",
         tag = "v0.0.7",
-        config = function()
-            vim.cmd('colorscheme github_dark_colorblind')
-            setTransparent()
-        end
+        -- config = function()
+        --     vim.cmd('colorscheme github_dark_colorblind')
+        --     setTransparent()
+        -- end
     },
 
     -- vscode
@@ -75,9 +75,9 @@ return {
     {
         "ellisonleao/gruvbox.nvim",
         config = function()
-            --vim.cmd('colorscheme gruvbox')
+            vim.cmd('colorscheme gruvbox')
+            setTransparent()
         end,
-        keys = "<leader>pc",
     },
 
     {
