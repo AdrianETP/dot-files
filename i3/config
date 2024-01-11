@@ -153,7 +153,6 @@ bindsym $mod+Shift+w move workspace to output next
 # screenshot
 bindsym $mod+Shift+s exec xfce4-screenshooter
 
-bindsym $mod+Shift+b exec "~/bg.bash"
 
 for_window [class=".*"] split toggle
 # resize window (you can also use the mouse for that)
@@ -184,10 +183,11 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 bindsym $mod+Shift+x exec i3lock --color "#1d2b38"
+bindsym $mod+b exec ~/.config/bin/wallpaper.sh
 
 
 # xrandr
-exec_always ~/.screenlayout/foo.sh
+exec_always ~/.config/bin/monitor_check.sh
 
 
 new_window 1pixel # remove window title bar
@@ -217,7 +217,7 @@ exec_always setxkbmap -option "caps:ctrl_modifier"
 exec_always setxkbmap  dvorak
 bindsym $mod+Control+p exec setxkbmap -layout es
 bindsym $mod+Control+r exec setxkbmap -layout dvorak
-exec_always feh --bg-scale ~/Pictures/Bigsur.jpg
+exec_always ~/.config/bin/set_wallpaper.sh
  
  exec_always picom
 # exec_always compton
