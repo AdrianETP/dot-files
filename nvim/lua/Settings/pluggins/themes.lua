@@ -13,10 +13,10 @@ return {
     {
         "projekt0n/github-nvim-theme",
         tag = "v0.0.7",
-        config = function()
-            vim.cmd('colorscheme github_dark_colorblind')
-            setTransparent()
-        end
+        -- config = function()
+        --     vim.cmd('colorscheme github_dark_colorblind')
+        --     setTransparent()
+        -- end
     },
 
     -- vscode
@@ -36,17 +36,17 @@ return {
         -- config = function()
         --     require('onedark').setup {
         --
-        --         -- style = 'cool'
+        --         style = 'cool'
         --     }
         --     vim.cmd('colorscheme onedark')
-        --     -- setTransparent()
+        --     setTransparent()
         -- end
         -- keys = "<leader>pc"
     },
     -- vscode
     {
         'Mofiqul/vscode.nvim',
-        keys = "<leader>pc"
+        -- keys = "<leader>pc"
     },
 
 
@@ -54,11 +54,11 @@ return {
     {
         'folke/tokyonight.nvim',
 
-        -- config = function()
-        --     vim.cmd("colorscheme tokyonight-night")
-        --     -- setTransparent()
-        -- end
-        keys = "<leader>pc"
+        config = function()
+            vim.cmd("colorscheme tokyonight-night")
+            setTransparent()
+        end
+        -- keys = "<leader>pc"
     },
     {
         'Mofiqul/dracula.nvim',
