@@ -20,6 +20,8 @@ echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] http
 sudo apt update
 sudo apt install brave-browser -y
 
+# polybar
+sudo apt install polybar
 # arandr 
 sudo apt install arandr -y
 
