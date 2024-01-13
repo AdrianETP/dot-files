@@ -30,7 +30,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+# exec --no-startup-id nm-applet
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
@@ -96,7 +96,7 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+f floating toggle
 
 # change focus between tiling / floating windows bindsym $mod+space focus mode_toggle focus the parent container bindsym $mod+a focus parent
 
@@ -110,7 +110,7 @@ set $ws2 "2: Work Browser   "
 set $ws3 "3: Communication 󰭹  "
 set $ws4 "4: Personal Browser   "
 set $ws5 "5: File manager   "
-set $ws6 "6: Libre Office 󰈙 "
+set $ws6 "6: Office 󰈙 "
 set $ws7 "7: Testing  "
 set $ws8 "8: Settings "
 set $ws9 "9"
@@ -220,8 +220,12 @@ bindsym $mod+Control+p exec setxkbmap -layout es
 bindsym $mod+Control+r exec setxkbmap -layout dvorak
 exec_always ~/.config/bin/set_wallpaper.sh
  
- exec_always picom
-# exec_always compton
+ exec_always picom --experimental-backends --backend glx # exec_always compton
+
+exec_always copyq
+
+bindsym $mod+Shift+space exec copyq
+
 
 # make copyq floating
 for_window [class="copyq" instance="copyq"] floating enable
@@ -229,9 +233,12 @@ for_window [class="copyq" instance="copyq"] floating enable
 assign [class="Alacritty"] $ws1
 assign [class="Brave-browser"] $ws2
 assign [class="zoom"] $ws3
+assign [class="whatsdesk"] $ws3
 assign [class="discord"] $ws3
 assign [class="Firefox-esr"] $ws4
+assign [class="apple-music-for-linux"] $ws4
 assign [class="org.gnome.Nautilus"] $ws5
 assign [class="libreoffice-startcenter"] $ws6
+assign [class="ONLYOFFICE Desktop Editors"] $ws6
 assign [class="Postman"] $ws7
 assign [class="SimpleScreenRecorder"] $ws8

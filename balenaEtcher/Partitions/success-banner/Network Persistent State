@@ -1,0 +1,1 @@
+{"net":{"http_server_properties":{"servers":[{"anonymization":[],"network_stats":{"srtt":113499},"server":"https://efp.balena.io"}],"supports_quic":{"address":"10.0.0.37","used_quic":true},"version":5},"network_qualities":{"CAISABiAgICA+P////8B":"4G"}}}

@@ -24,16 +24,16 @@ configuration {
 	base0E: #C792EA;
 	base0F: #FF5370;
 
-	base0D: #2C528C;
+	base0D: #b74551;
 
-	spacing: 0;
-	background-color: #3a3b3d33;
+	spacing: 1;
+	background-color: #313743aa;
 
 }
 
 window {
 	transparency: "real";
-	background-color: #263238CC; /*base00 + CC (100% opacity)*/
+    
 }
 
 mainbox {

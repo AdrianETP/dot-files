@@ -1,2 +1,3 @@
-2024/01/10-21:07:21.390 4503 Creating DB /home/adrian/.config/balenaEtcher/Local Storage/leveldb since it was missing.
-2024/01/10-21:07:21.394 4503 Reusing MANIFEST /home/adrian/.config/balenaEtcher/Local Storage/leveldb/MANIFEST-000001
+2024/01/11-18:20:15.987 270d Reusing MANIFEST /home/adrian/.config/balenaEtcher/Local Storage/leveldb/MANIFEST-000001
+2024/01/11-18:20:15.987 270d Recovering log #3
+2024/01/11-18:20:15.987 270d Reusing old log /home/adrian/.config/balenaEtcher/Local Storage/leveldb/000003.log 

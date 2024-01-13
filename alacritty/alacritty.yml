@@ -2,11 +2,11 @@ live_config_reload: true
 env:
   TERM: xterm-256color
 import:
-  - ~/.config/alacritty/themes/themes/tokyo_night.yaml
+  - ~/.config/alacritty/themes/themes/github_dark_colorblind.yaml
 window:
   opacity: 0.85
   # decorations: buttonless
 font:
   normal:
-    family: "JetBrainsMono Nerd Font"
+    family: "Fira Code"
   size: 10

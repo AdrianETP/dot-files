@@ -5,6 +5,15 @@ end
 
 return {
     {
+        "nyoom-engineering/oxocarbon.nvim",
+        config = function()
+            vim.cmd('colorscheme oxocarbon')
+            setTransparent()
+        end
+
+    },
+
+    {
         "catppuccin/nvim",
         name = "catppuccin",
         priority = 1000,
@@ -54,10 +63,10 @@ return {
     {
         'folke/tokyonight.nvim',
 
-        config = function()
-            vim.cmd("colorscheme tokyonight-night")
-            setTransparent()
-        end
+        -- config = function()
+        --     vim.cmd("colorscheme tokyonight-night")
+        --     setTransparent()
+        -- end
         -- keys = "<leader>pc"
     },
     {

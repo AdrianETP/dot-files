@@ -1,2 +1,3 @@
-2024/01/10-21:09:26.778 4503 Creating DB /home/adrian/.config/balenaEtcher/Session Storage since it was missing.
-2024/01/10-21:09:26.788 4503 Reusing MANIFEST /home/adrian/.config/balenaEtcher/Session Storage/MANIFEST-000001
+2024/01/11-18:24:31.590 270d Reusing MANIFEST /home/adrian/.config/balenaEtcher/Session Storage/MANIFEST-000001
+2024/01/11-18:24:31.590 270d Recovering log #3
+2024/01/11-18:24:31.590 270d Reusing old log /home/adrian/.config/balenaEtcher/Session Storage/000003.log 
