@@ -1,6 +1,6 @@
-Wall=$(ls ~/Pictures/wallpapers |rofi -dmenu)
+Wall=$(ls ~/.config/wallpapers |rofi -dmenu)
 
-feh --bg-scale ~/Pictures/wallpapers/$Wall
+feh --bg-scale ~/.config/wallpapers/$Wall
 
 rm  ~/.config/bin/current_wallpaper.txt
 

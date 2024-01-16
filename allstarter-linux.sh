@@ -21,7 +21,7 @@ sudo apt update
 sudo apt install brave-browser -y
 
 # polybar
-sudo apt install polybar
+sudo apt install polybar -y
 # arandr 
 sudo apt install arandr -y
 
@@ -42,7 +42,7 @@ brew install nvim tmux fzf zoxide
 
 git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm -y
 
-if [ -e ~/Pictures/Bigsur.jpg ]; then
+if [ -e ~/Pictures/wallpapers/ ]; then
     echo "Big sur file is already on pictures"
 else
     echo "Moving Big sur file to Pictures"
