@@ -1,0 +1,12 @@
+{
+  "_id": "bb3736ef-b232-4ffa-bb5d-a91cf9a0edbc",
+  "connectionInfo": {
+    "id": "bb3736ef-b232-4ffa-bb5d-a91cf9a0edbc",
+    "connectionOptions": {
+      "connectionString": "mongodb://localhost:27017/",
+      "oidc": {}
+    },
+    "lastUsed": "2024-01-15T14:51:29.082Z"
+  },
+  "version": 1
+}
