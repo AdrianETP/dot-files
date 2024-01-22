@@ -1,3 +1,3 @@
 Wall=$(cat ~/.config/bin/current_wallpaper.txt)
 
-feh --bg-scale ~/Pictures/wallpapers/$Wall
+feh --bg-scale ~/.config/wallpapers/$Wall

@@ -1,0 +1,12 @@
+{
+  "_id": "166780ad-6ebc-4de1-a2ec-74e9bb26afbd",
+  "connectionInfo": {
+    "id": "166780ad-6ebc-4de1-a2ec-74e9bb26afbd",
+    "connectionOptions": {
+      "connectionString": "mongodb://localhost:27017/",
+      "oidc": {}
+    },
+    "lastUsed": "2024-01-22T15:08:04.553Z"
+  },
+  "version": 1
+}

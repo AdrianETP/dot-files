@@ -1,7 +1,7 @@
 configuration {
   run-display-format: "{icon} {name}";
   show-icons:true;
-  modi: "";
+  modi: ["run", "drun"];
 }
 
 @theme "/dev/null"
@@ -24,10 +24,11 @@ configuration {
 	base0E: #C792EA;
 	base0F: #FF5370;
 
-	base0D: #b74551;
+	base0D: #212733;
 
-	spacing: 1;
+	spacing: 5;
 	background-color: #313743aa;
+    
 
 }
 
@@ -106,6 +107,7 @@ element-text, element-icon {
 	background-color : inherit;
 	text-color	     : inherit;
 	foreground-color : inherit;
+    size: 1.3em;
 }
 
 element normal {

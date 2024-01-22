@@ -1,3 +1,3 @@
-2024/01/16-13:45:18.073 4f62 Reusing MANIFEST /home/adrian/.config/MongoDB Compass/Local Storage/leveldb/MANIFEST-000001
-2024/01/16-13:45:18.073 4f62 Recovering log #3
-2024/01/16-13:45:18.073 4f62 Reusing old log /home/adrian/.config/MongoDB Compass/Local Storage/leveldb/000003.log 
+2024/01/22-09:07:41.905 3b29 Reusing MANIFEST /home/adrian/.config/MongoDB Compass/Local Storage/leveldb/MANIFEST-000001
+2024/01/22-09:07:41.905 3b29 Recovering log #3
+2024/01/22-09:07:41.906 3b29 Reusing old log /home/adrian/.config/MongoDB Compass/Local Storage/leveldb/000003.log 

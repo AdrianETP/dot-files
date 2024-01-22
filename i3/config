@@ -52,6 +52,7 @@ bindsym $mod+q kill
 bindsym $mod+space exec  rofi -show drun
 bindsym $mod+Control+space exec  rofi -show run
 bindsym $mod+Shift+space exec find ~ | rofi -dmenu | xargs open
+bindsym $mod+Control+s exec ~/.config/bin/rofibash
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -114,7 +115,7 @@ set $ws5 "5: File manager   "
 set $ws6 "6: Office 󰈙 "
 set $ws7 "7: Testing  "
 set $ws8 "8: Settings "
-set $ws9 "9"
+set $ws9 "9: Notes "
 set $ws10 "10"
 
 # switch to workspace
@@ -155,7 +156,8 @@ bindsym $mod+Shift+w move workspace to output next
 bindsym $mod+Shift+s exec shutter
 
 
-for_window [class=".*"] split toggle
+default_orientation auto
+# for_window [class=".*"] split toggle
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -189,6 +191,7 @@ bindsym $mod+b exec ~/.config/bin/select_wallpaper.sh
 
 # xrandr
 exec_always ~/.config/bin/monitor_check.sh
+exec_always ~/.config/bin/set_wallpaper.sh
 
 exec polybar -c ~/.config/polybar/config.ini
 
@@ -236,6 +239,7 @@ assign [class="Brave-browser"] $ws2
 assign [class="zoom"] $ws3
 assign [class="whatsdesk"] $ws3
 assign [class="discord"] $ws3
+assign [class="thunderbird-default"] $ws3
 assign [class="Firefox-esr"] $ws4
 assign [class="apple-music-for-linux"] $ws4
 assign [class="org.gnome.Nautilus"] $ws5
@@ -244,3 +248,4 @@ assign [class="ONLYOFFICE Desktop Editors"] $ws6
 assign [class="Postman"] $ws7
 assign [class="MongoDB Compass"] $ws7
 assign [class="SimpleScreenRecorder"] $ws8
+assign [class="Zettlr"] $ws9

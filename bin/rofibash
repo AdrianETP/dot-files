@@ -1,0 +1,6 @@
+#!/bin/bash
+Command=$(tac ~/.bash_history |rofi -dmenu)
+
+$Command
+
+echo $Command >> ~/.bash_history

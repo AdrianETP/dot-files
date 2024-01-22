@@ -37,6 +37,15 @@ sudo apt install picom -y
 # i3 blocks
 sudo apt install i3blocks
 
+# shutter
+sudo apt install shutter -y
+
+# pass
+sudo apt install pass
+
+# otp
+sudo apt install pass-otp
+
 # installations with homebrew 
 brew install nvim tmux fzf zoxide 
 

@@ -1,0 +1,45 @@
+cd .icons/
+git clone 
+git clone https://github.com/zayronxio/Zafiro-Nord-Dark.git
+nvim ~/.bashrc 
+nvim
+cd
+nvim .bashrc
+source .bashrc
+pass edit tec/passwd
+cd bin/
+chmod +x rofibash 
+./rofibash 
+nvim ~/.bashrc
+./rofibash 
+[200~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
+./rofibash 
+nvim
+t
+.password-store/
+ls
+cd .password-store/
+ls
+find .
+pass tec/otp.gpg
+pass tec/otp
+pass otp tec/otp
+cd.
+cd ..
+ls
+rofi -run 
+rofi -show -windowcd
+rofi -show windowcd
+pass
+pass | rofi
+pass | rofi -dmenu
+rofi -dmenu
+t
+rofibash
+find ~/.password-store/ | rofi -dmenu
+nvim
+history -p
+cat ~/.bash_history 
+cat ~/.bash_history |rofi -dmenu
+nvim
+history -a hello

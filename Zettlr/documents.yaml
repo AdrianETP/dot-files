@@ -1,0 +1,15 @@
+f6e974ab-3aea-4d3a-b35f-5f27724ff406:
+  type: leaf
+  id: 5c2be024-7044-44e0-8e00-8c1f2c35e2d0
+  openFiles:
+    - path: /home/adrian/notes/Docker.md
+      pinned: false
+    - path: /home/adrian/notes/apt.md
+      pinned: false
+    - path: /home/adrian/notes/how_to_configure_a_server.md
+      pinned: false
+    - path: /home/adrian/notes/gpg.md
+      pinned: false
+  activeFile:
+    path: /home/adrian/notes/how_to_configure_a_server.md
+    pinned: false
