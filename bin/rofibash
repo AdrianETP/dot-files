@@ -2,5 +2,6 @@
 Command=$(tac ~/.bash_history |rofi -dmenu)
 
 $Command
-
-echo $Command >> ~/.bash_history
+if [$Command]; then
+    echo $Command >> ~/.bash_history
+fi

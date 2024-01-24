@@ -52,7 +52,7 @@ bindsym $mod+q kill
 bindsym $mod+space exec  rofi -show drun
 bindsym $mod+Control+space exec  rofi -show run
 bindsym $mod+Shift+space exec find ~ | rofi -dmenu | xargs open
-bindsym $mod+Control+s exec ~/.config/bin/rofibash
+bindsym $mod+p exec ~/.config/bin/rofibash
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -226,6 +226,7 @@ bindsym $mod+Control+r exec setxkbmap -layout dvorak
 exec_always ~/.config/bin/set_wallpaper.sh
  
  exec_always picom --experimental-backends --backend glx # exec_always compton
+ exec_alwafs numlockx
 
 
 

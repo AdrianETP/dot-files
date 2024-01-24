@@ -46,8 +46,19 @@ sudo apt install pass
 # otp
 sudo apt install pass-otp
 
+# numlockx (for numpad)
+sudo apt install numlockx
+
+# snapd
+sudo apt install snapd
+
+
 # installations with homebrew 
-brew install nvim tmux fzf zoxide 
+brew install neovim tmux fzf zoxide 
+
+# installations with snap
+
+sudo snap install whatsdesk
 
 git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm -y
 
