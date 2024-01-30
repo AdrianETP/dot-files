@@ -9,9 +9,9 @@ fi
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 # installations with homebrew 
-brew install nvim tmux fzf zoxide brave-browser raycast
+brew install nvim tmux fzf zoxide brave-browser raycast firefox
 
 rm -rf ~/.config/tmux/plugins/tpm
-git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
+git clone https://github.com/tmux-plugins/tpm.git ~/.config/tmux/plugins/tpm
 
 
