@@ -8,9 +8,12 @@ else
     rm ~/.bashrc
     cp ~/.config/bashrclinux ~/.bashrc
 fi
+source ~/.bashrc
+cp -r ~/.config/rofithemes/ ~/.local/share/rofi/themes
+sudo apt install curl
 
 # install starship
-curl -sS https://starship.rs/install.sh | shcurl -sS https://starship.rs/install.sh | sh
+curl -sS https://starship.rs/install.sh | sh
 
 # installing apps with apt
 sudo apt install build-essential
@@ -49,6 +52,8 @@ sudo apt install pass-otp
 # numlockx (for numpad)
 sudo apt install numlockx
 
+# rofi
+sudo apt install rofi
 # snapd
 sudo apt install snapd
 
@@ -60,15 +65,9 @@ brew install neovim tmux fzf zoxide
 
 sudo snap install whatsdesk
 
-git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm -y
+git clone https://github.com/tmux-plugins/tpm.git ~/.config/tmux/plugins/tpm
 
-if [ -e ~/Pictures/wallpapers/ ]; then
-    echo "Big sur file is already on pictures"
-else
-    echo "Moving Big sur file to Pictures"
-    cp ~/.config/Bigsur.jpg ~/Pictures/Bigsur.jpg
-fi
-i3-msg reload
+git clone https://github.com/adrianetp/wallpapers.git ~/.config/wallpapers
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 
 source ~/.bashrc

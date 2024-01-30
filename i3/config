@@ -53,6 +53,9 @@ bindsym $mod+space exec  rofi -show drun
 bindsym $mod+Control+space exec  rofi -show run
 bindsym $mod+Shift+space exec find ~ | rofi -dmenu | xargs open
 bindsym $mod+p exec ~/.config/bin/rofibash
+bindsym $mod+c exec ~/.config/bin/selectclip
+bindsym $mod+b exec ~/.config/bin/select_wallpaper.sh
+bindsym $mod+Shift+b exec rofi-theme-selector
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -154,6 +157,7 @@ bindsym $mod+Shift+w move workspace to output next
 
 # screenshot
 bindsym $mod+Shift+s exec shutter
+for_window [class="Shutter"] floating enable
 
 
 default_orientation auto
@@ -186,7 +190,6 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 bindsym $mod+Shift+x exec i3lock --color "#1d2b38"
-bindsym $mod+b exec ~/.config/bin/select_wallpaper.sh
 
 
 # xrandr
@@ -249,4 +252,4 @@ assign [class="ONLYOFFICE Desktop Editors"] $ws6
 assign [class="Postman"] $ws7
 assign [class="MongoDB Compass"] $ws7
 assign [class="SimpleScreenRecorder"] $ws8
-assign [class="Zettlr"] $ws9
+assign [class="obsidian"] $ws9
