@@ -44,13 +44,13 @@ sudo apt install i3blocks
 sudo apt install shutter -y
 
 # pass
-sudo apt install pass
+sudo apt install pass -y
 
 # otp
-sudo apt install pass-otp
+sudo apt install pass-otp -y
 
 # numlockx (for numpad)
-sudo apt install numlockx
+sudo apt install numlockx -y
 
 # rofi
 sudo apt install rofi
@@ -59,7 +59,7 @@ sudo apt install snapd
 
 
 # installations with homebrew 
-brew install neovim tmux fzf zoxide 
+brew install neovim tmux fzf zoxide lazygit
 
 # installations with snap
 
