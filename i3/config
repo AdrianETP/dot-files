@@ -229,7 +229,7 @@ bindsym $mod+Control+r exec setxkbmap -layout dvorak
 exec_always ~/.config/bin/set_wallpaper.sh
  
  exec_always picom --experimental-backends --backend glx # exec_always compton
- exec_alwafs numlockx
+ exec_always numlockx
 
 
 
