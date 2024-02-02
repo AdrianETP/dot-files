@@ -12,4 +12,4 @@ shift +alt - l : yabai -m window --warp east
 shift + alt - space : yabai -m space --rotate 90
 
 ## toggle window fullscreen zoom
-ctrl + alt - 0x24 : yabai -m window --toggle zoom-fullscreen
+ctrl + alt - f : yabai -m window --toggle zoom-fullscreen
