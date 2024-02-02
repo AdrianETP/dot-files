@@ -1,6 +1,6 @@
 Wall=$(find ~/.config/wallpapers |rofi -dmenu -p "wallpaper")
 
-feh --bg-scale $Wall
+feh --bg-fill $Wall
 
 rm  ~/.config/bin/current_wallpaper.txt
 

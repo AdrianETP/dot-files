@@ -26,4 +26,7 @@ configuration{
 //@theme "/home/adrian/.local/share/rofi/themes/windows11-grid-dark.rasi"
 //@theme "/home/adrian/.local/share/rofi/themes/spotlight-dark.rasi"
 //@theme "/home/adrian/.local/share/rofi/themes/rounded-nord-dark.rasi"
+//@theme "/home/adrian/.local/share/rofi/themes/spotlight-dark.rasi"
+//@theme "/home/adrian/.local/share/rofi/themes/launchpad.rasi"
+//@theme "/home/adrian/.local/share/rofi/themes/spotlight.rasi"
 @theme "/home/adrian/.local/share/rofi/themes/spotlight-dark.rasi"
