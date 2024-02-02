@@ -1,0 +1,20 @@
+{
+	"notifications": [
+		{
+			"guid": "8fe02fe2-f8a4-4d90-b804-f286dbf533c1",
+			"timestamp": 1706806120888,
+			"read": false,
+			"displayState": "background",
+			"notification": {
+				"type": "update",
+				"ephemeral": false,
+				"icon": "download",
+				"message": "Docker Desktop 4.27.1 is available.",
+				"actionText": "Download",
+				"action": {
+					"action": "update-available"
+				}
+			}
+		}
+	]
+}

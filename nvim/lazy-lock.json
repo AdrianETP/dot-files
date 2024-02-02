@@ -5,10 +5,10 @@
   "catppuccin": { "branch": "main", "commit": "40dc9f0621c55bd40da4ad0731fac44d15bb393a" },
   "cmp-buffer": { "branch": "main", "commit": "3022dbc9166796b644a841a02de8dd1cc1d311fa" },
   "cmp-nvim-lsp": { "branch": "main", "commit": "5af77f54de1b16c34b23cba810150689a3a90312" },
+  "codeium.vim": { "branch": "main", "commit": "04e5f9dfb11d3bbcc28b4685378c1e6d2963fd1e" },
   "conform.nvim": { "branch": "master", "commit": "2c1e852fbf723b7d89b14fd28089472d92edeeb9" },
   "dracula.nvim": { "branch": "main", "commit": "7200e64c589f899d29f8963aad7543856d1c2545" },
   "github-nvim-theme": { "branch": "main", "commit": "24c8706c9ad26b944f5a76dea999dca8708f252e" },
-  "gitsigns.nvim": { "branch": "main", "commit": "af0f583cd35286dd6f0e3ed52622728703237e50" },
   "gruvbox.nvim": { "branch": "main", "commit": "477c62493c82684ed510c4f70eaf83802e398898" },
   "harpoon": { "branch": "master", "commit": "c1aebbad9e3d13f20bedb8f2ce8b3a94e39e424a" },
   "lazy.nvim": { "branch": "main", "commit": "28126922c9b54e35a192ac415788f202c3944c9f" },
@@ -39,6 +39,5 @@
   "vim-dadbod": { "branch": "master", "commit": "fecf5a3ecfb1869f34252c7c27351de99f01ab0e" },
   "vim-dadbod-completion": { "branch": "master", "commit": "bcdf3ff768cc7e544a0f78b0383d8719c2116569" },
   "vim-dadbod-ui": { "branch": "master", "commit": "95fd22469507e86b78aa55d868c14108adee2881" },
-  "vim-fugitive": { "branch": "master", "commit": "46eaf8918b347906789df296143117774e827616" },
   "vscode.nvim": { "branch": "main", "commit": "563e3f671543ba14f23ccb57020a428add640d02" }
 }

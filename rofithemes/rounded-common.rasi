@@ -17,6 +17,7 @@
 
 window {
     location:       center;
+    anchor: center;
     width:          480;
     border-radius:  24px;
     

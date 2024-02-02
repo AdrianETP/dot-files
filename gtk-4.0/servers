@@ -13,12 +13,22 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="smb://10.147.17.2/" added="2024-01-21T20:50:00.510702Z" modified="2024-01-21T20:50:00.510707Z" visited="2024-01-21T20:50:00.510703Z">
+  <bookmark href="smb://10.147.17.2/" added="2024-01-21T20:50:00.510702Z" modified="2024-01-26T13:55:30.768328Z" visited="2024-01-26T13:55:30.768323Z">
     <title>Windows shares on 10.147.17.2</title>
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-01-21T20:50:00.510705Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-01-26T13:55:30.768326Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="smb://100.72.222.108/" added="2024-02-01T00:03:19.225303Z" modified="2024-02-01T00:03:19.225311Z" visited="2024-02-01T00:03:19.225306Z">
+    <title>Windows shares on 100.72.222.108</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-02-01T00:03:19.225309Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>
