@@ -195,7 +195,7 @@ bindsym $mod+Shift+x exec i3lock --color "#1d2b38"
 exec_always ~/.config/bin/monitor_check.sh
 exec ~/.config/bin/set_wallpaper.sh
 
-# exec polybar -c ~/.config/polybar/config.ini
+exec polybar -c ~/.config/polybar/config.ini
 
 default_border none # remove window title bar
 # Start i3bar to display a workspace bar (plus the system information i3status
@@ -227,7 +227,7 @@ exec_always setxkbmap -layout dvorak
 # input * xkb_layout "dvorak"
 exec_always ~/.config/bin/set_wallpaper.sh
  
-# B exec_always picom --experimental-backends --backend glx # exec_always compton
+ exec_always picom --experimental-backends --backend glx # exec_always compton
  exec_always numlockx
 
 
@@ -254,4 +254,4 @@ assign [class="Postman"] $ws7
 assign [class="MongoDB Compass"] $ws7
 assign [class="SimpleScreenRecorder"] $ws8
 assign [class="obsidian"] $ws9
-assign [class="REAPER"] $ws10
+assign [class="Audacity"] $ws10

@@ -9,6 +9,7 @@ else
     cp ~/.config/bashrclinux ~/.bashrc
 fi
 source ~/.bashrc
+mkdir ~/.local/share/rofi
 cp -r ~/.config/rofithemes/ ~/.local/share/rofi/themes
 sudo apt install curl
 
@@ -37,9 +38,6 @@ sudo apt install alacritty -y
 # picom
 sudo apt install picom -y
 
-# i3 blocks
-sudo apt install i3blocks
-
 # shutter
 sudo apt install shutter -y
 
@@ -57,9 +55,14 @@ sudo apt install rofi
 # snapd
 sudo apt install snapd
 
+# audacity
+sudo apt install audacity
+
 
 # installations with homebrew 
 brew install neovim tmux fzf zoxide lazygit
+
+# add rofi themes
 
 # installations with snap
 
