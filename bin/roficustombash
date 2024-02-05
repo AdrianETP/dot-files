@@ -1,0 +1,6 @@
+#!/bin/bash
+
+Command=$(ls ~/.config/bin | rofi -dmenu -p "$")
+~/.config/bin/$Command
+
+
