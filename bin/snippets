@@ -1,0 +1,7 @@
+#!/bin/bash
+
+Snippet="$(ls ~/.snippets | rofi -dmenu -p 'Snippet')"
+
+cat ~/.snippets/$Snippet | xclip -selection clipboard 
+
+

@@ -6,10 +6,10 @@ end
 return {
     {
         "nyoom-engineering/oxocarbon.nvim",
-        config = function()
-            vim.cmd('colorscheme oxocarbon')
-            setTransparent()
-        end
+        -- config = function()
+        --     vim.cmd('colorscheme oxocarbon')
+        --     setTransparent()
+        -- end
 
     },
 
@@ -22,10 +22,10 @@ return {
     {
         "projekt0n/github-nvim-theme",
         tag = "v0.0.7",
-        -- config = function()
-        --     vim.cmd('colorscheme github_dark_colorblind')
-        --     setTransparent()
-        -- end
+        config = function()
+            vim.cmd('colorscheme github_dark_colorblind')
+            setTransparent()
+        end
     },
 
     -- vscode

@@ -55,7 +55,8 @@ bindsym $mod+Shift+space exec find ~ | rofi -dmenu | xargs open
 bindsym $mod+p exec ~/.config/bin/rofibash
 bindsym $mod+Shift+p exec ~/.config/bin/roficustombash
 bindsym $mod+c exec ~/.config/bin/selectclip
-bindsym $mod+b exec ~/.config/bin/select_wallpaper.sh
+bindsym $mod+b exec ~/.config/bin/select_wallpaper
+bindsym $mod+Shift+c exec ~/.config/bin/snippets
 bindsym $mod+Shift+b exec rofi-theme-selector
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
@@ -193,15 +194,17 @@ bindsym $mod+Shift+x exec i3lock --color "#1d2b38"
 
 # xrandr
 # output HDMI-A-1  res 1920x1080
-exec_always ~/.config/bin/monitor_check.sh
-exec ~/.config/bin/set_wallpaper.sh
+exec_always ~/.config/bin/monitor_check
+exec ~/.config/bin/set_wallpaper
 
 exec polybar -c ~/.config/polybar/config.ini
 
 default_border none # remove window title bar
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-for_window [class=".*"] border pixel 0
+for_window [class=".*"] border pixel 2
+ client.focused #ffffff #ffffff #000000 #ffffff     
+ client.unfocused #000000 #000000 #ffffff #000000
 bar {
         position top
         mode invisible
@@ -222,8 +225,10 @@ bar {
 for_window [class="^.*"] focus
 
 # capslock to escape
-exec_always setxkbmap -option caps:ctrl_modifier
-exec_always setxkbmap -layout dvorak
+exec_always setxkbmap -layout dvorak && setxkbmap -option caps:ctrl_modifier
+bindsym $mod+Control+p exec setxkbmap -layout es && setxkbmap -option caps:ctrl_modifier
+bindsym $mod+Control+r exec setxkbmap -layout dvorak && setxkbmap -option caps:ctrl_modifier
+
 # input * xkb_options "caps:ctrl_modifier"
 # input * xkb_layout "dvorak"
 exec_always ~/.config/bin/set_wallpaper.sh
@@ -254,5 +259,5 @@ assign [class="libreoffice-impress"] $ws6
 assign [class="Postman"] $ws7
 assign [class="MongoDB Compass"] $ws7
 assign [class="SimpleScreenRecorder"] $ws8
-assign [class="obsidian"] $ws9
+assign [class="Logseq"] $ws9
 assign [class="Audacity"] $ws10

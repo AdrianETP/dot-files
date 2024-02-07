@@ -31,8 +31,14 @@ sudo apt install polybar -y
 # arandr 
 sudo apt install arandr -y
 
-# copyq 
-sudo apt install copyq -y 
+# neofetch
+sudo apt install neofetch -y
+
+#lolcat
+sudo apt install lolcat -y
+
+# feh
+sudo apt install feh -y
 
 # alacritty
 sudo apt install alacritty -y
