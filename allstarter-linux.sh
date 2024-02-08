@@ -10,7 +10,6 @@ else
 fi
 source ~/.bashrc
 mkdir ~/.local/share/rofi
-cp -r ~/.config/rofithemes/ ~/.local/share/rofi/themes
 sudo apt install curl
 
 # install starship
@@ -39,6 +38,9 @@ sudo apt install lolcat -y
 
 # feh
 sudo apt install feh -y
+
+# i3 
+sudo apt install i3 -y
 
 # alacritty
 sudo apt install alacritty -y
@@ -71,10 +73,10 @@ sudo apt install audacity
 brew install neovim tmux fzf zoxide lazygit
 
 # add rofi themes
+cp -r ~/.config/rofithemes/ ~/.local/share/rofi/themes
 
 # installations with snap
-
-sudo snap install whatsdesk
+sudo snap install whatsdesk lazygit
 
 git clone https://github.com/tmux-plugins/tpm.git ~/.config/tmux/plugins/tpm
 
