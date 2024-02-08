@@ -82,3 +82,34 @@ git clone https://github.com/adrianetp/wallpapers.git ~/.config/wallpapers
 gsettings set org.gnome.desktop.interface color-scheme prefer-dark
 
 source ~/.bashrc
+
+# rofi plugins install (make)
+#
+cd ~/Downloads
+# rofi pass
+sudo apt install sed xdotool  xclip  gawk bash  find pwgen 
+
+git clone https://github.com/carnager/rofi-pass.git
+cd rofi-pass
+sudo make
+
+cd ..
+
+# rofi emoji
+git clone https://github.com/Mange/rofi-emoji.git
+cd rofi-emoji
+
+
+sudo apt install rofi-dev autoconf automake libtool-bin libtool 
+autoreconf -i
+mkdir build
+cd build/
+../configure
+make
+sudo make install
+
+cd ..
+
+# auto-cpufrequency
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+cd auto-cpufreq && sudo ./auto-cpufreq-installer

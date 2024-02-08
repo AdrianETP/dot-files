@@ -158,6 +158,7 @@ bindsym $mod+Shift+w move workspace to output next
 # screenshot
 bindsym $mod+Shift+s exec shutter
 for_window [class="Shutter"] floating enable
+for_window [class="SimpleScreenRecorder"] floating enable
 
 
 default_orientation auto
