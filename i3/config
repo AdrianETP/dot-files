@@ -52,7 +52,7 @@ bindsym $mod+q kill
 bindsym $mod+space exec  rofi -show drun
 bindsym $mod+Control+space exec  rofi -show run
 bindsym $mod+Shift+space exec find ~ | rofi -dmenu | xargs open
-bindsym $mod+p exec ~/.config/bin/rofibash
+bindsym $mod+p exec rofi-pass
 bindsym $mod+Shift+p exec ~/.config/bin/roficustombash
 bindsym $mod+c exec ~/.config/bin/selectclip
 bindsym $mod+b exec ~/.config/bin/select_wallpaper
