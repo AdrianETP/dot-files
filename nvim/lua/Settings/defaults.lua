@@ -27,7 +27,7 @@ vim.opt.scrolloff = 8
 -- vim.opt.guicursor = ""
 
 -- nowrap
-vim.opt.wrap = false
+vim.opt.wrap = true
 
 -- no swapfile
 vim.opt.swapfile = false

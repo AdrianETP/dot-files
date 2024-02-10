@@ -57,7 +57,9 @@ bindsym $mod+Shift+p exec ~/.config/bin/roficustombash
 bindsym $mod+c exec ~/.config/bin/selectclip
 bindsym $mod+b exec ~/.config/bin/select_wallpaper
 bindsym $mod+Shift+c exec ~/.config/bin/snippets
+bindsym $mod+Shift+e exec rofi -show emoji
 bindsym $mod+Shift+b exec rofi-theme-selector
+bindsym $mod+Shift+n exec ~/.config/bin/new_note_rofi
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -260,5 +262,5 @@ assign [class="libreoffice-impress"] $ws6
 assign [class="Postman"] $ws7
 assign [class="MongoDB Compass"] $ws7
 assign [class="SimpleScreenRecorder"] $ws8
-assign [class="Logseq"] $ws9
+assign [class="obsidian"] $ws9
 assign [class="Audacity"] $ws10

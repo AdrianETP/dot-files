@@ -1,0 +1,4 @@
+#!/bin/bash
+
+title="$(ls ~/notes|rofi -dmenu)"
+alacritty -e "$(nvim $title)"

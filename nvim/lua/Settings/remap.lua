@@ -20,6 +20,15 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set({ "n", "v" }, "<leader>y", '"+y')
 vim.keymap.set({ "n", "v" }, "<leader>p", '"+p')
 
+--- wrap
+vim.keymap.set("n", "<leader>w", function()
+    if vim.o.wrap == true then
+        vim.o.wrap = false
+    else
+        vim.o.wrap = true
+    end
+end)
+
 -- buffers
 -- new buffer
 --[[ vim.keymap.set({ "n", "v" }, '<leader>t', function()
