@@ -1,0 +1,76 @@
+LOLCAT(6)                               Games Manual                              LOLCAT(6)
+
+NNAAMMEE
+       lolcat - rainbow coloring effect for text console display
+
+SSYYNNOOPPSSIISS
+       lloollccaatt [_o_p_t_i_o_n_s] [_f_i_l_e_s] ...
+
+DDEESSCCRRIIPPTTIIOONN
+       This manual page documents briefly the lloollccaatt command.
+
+       lloollccaatt  is  a program that concatenates files, or standard input, to standard output
+       (like the generic ccaatt), and adds rainbow coloring to it.
+
+OOPPTTIIOONNSS
+       --pp _X, ----sspprreeaadd==_X
+              Inclination of the rainbow stripes
+              (character widths per line hight; high values (>1000) give  almost  horizonal
+              stripes, low values (0.1) almost vertical ones; default: 3.0).
+
+       --FF _X, ----ffrreeqq==_X
+              Frequency of the rainbow effect.
+              (low values around 0.0001 give almost monochromous screens; default: 0.1).
+
+       --SS _X, ----sseeeedd==_X
+              Initial value for the random number generator; 0 means automatic.
+              (default: 0).
+
+       --aa, ----aanniimmaattee
+              Fade every line through an animation before printing the next one.
+
+       --dd _X, ----dduurraattiioonn==_X
+              Duration of the animation.
+              (number of steps before showing next line; default: 12)
+
+       --ss _X, ----ssppeeeedd==_X
+              Speed of the animation.
+              (frame rate, ie. number of steps per second; default: 20)
+
+       --ii, ----iinnvveerrtt
+              Inverts the background and foreground colors.
+
+       --tt, ----ttrruueeccoolloorr
+              Enables 24-bit truecolor mode.
+
+       --ff, ----ffoorrccee
+              Force color even when stdout is not a tty.
+
+       --vv,, ----vveerrssiioonn
+              Shows lolcat version.
+
+       --hh,, ----hheellpp
+              Shows options summary.
+
+EEXXAAMMPPLLEESS
+       Typical combinations of lloollccaatt include other programs that generate text:
+       Large colorful words can be written like this:
+
+              echo "KTHXBAI" | toilet | lolcat
+
+       Cows are popular, come in all colors, and tell random epigrams:
+
+              fortune | cowsay | lolcat -a
+
+SSEEEE AALLSSOO
+       ccaatt(1), ttooiilleett(1), ffoorrttuunnee(6), ccoowwssaayy(6)
+
+AAUUTTHHOORR
+       lolcat was written by Moe <moe@busyloop.net>.
+
+       This  manual page was originally written by chrysn <chrysn@fsfe.org>, for the Debian
+       project.
+       Very quickly revamped by Mathieu Aubin <mathieu@zeroserieux.com> to include as  part
+       of official code repository.
+
+                                       April 4, 2019                              LOLCAT(6)

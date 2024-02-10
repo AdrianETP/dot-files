@@ -1,0 +1,13 @@
+{
+  "connectionInfo": {
+    "id": "33af47ff-c9e8-4091-ab3b-3e1e53d96a6a",
+    "connectionOptions": {
+      "connectionString": "mongodb://localhost:27017/",
+      "oidc": {
+        "serializedState": "eyJvaWRjUGx1Z2luU3RhdGVWZXJzaW9uIjowLCJzdGF0ZSI6W119"
+      }
+    },
+    "lastUsed": "2024-02-08T20:04:56.178Z"
+  },
+  "_id": "33af47ff-c9e8-4091-ab3b-3e1e53d96a6a"
+}

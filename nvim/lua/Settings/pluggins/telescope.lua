@@ -10,20 +10,11 @@ return {
             local telescope = require("telescope")
             telescope.setup({
                 extensions = {
-                    --[[                     file_browser = {
-                        -- disables netrw and use telescope-file-browser in its place
-                        hijack_netrw = true,
-                        initial_mode = "normal",
-                        mappings = {
-                            ["i"] = {
-                                -- your custom insert mode mappings
-                            },
-                            ["n"] = {
-                                ["-"] = fb_actions.goto_parent_dir,
-
-                            },
-                        },
-                    }, ]]
+                    ["ui-select"] = {
+                        require("telescope.themes").get_dropdown {
+                            -- even more opts
+                        }
+                    }
                 },
                 defaults = {
                     -- Default configuration for telescope goes here:
@@ -77,6 +68,7 @@ return {
             })
             -- require("telescope").load_extension "file_browser"
             local builtin = require('telescope.builtin')
+            require("telescope").load_extension("ui-select")
             vim.keymap.set('n', '<leader>pf', builtin.find_files, {})
             vim.keymap.set('n', '<leader>pg', builtin.live_grep, {})
             vim.keymap.set('n', '<leader>pb', builtin.buffers, {})
@@ -115,5 +107,12 @@ return {
         'nvim-telescope/telescope-file-browser.nvim',
         dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" }
     } ]]
+
+    {
+        'nvim-telescope/telescope-ui-select.nvim',
+        config = function()
+
+        end
+    }
 
 }

@@ -8,7 +8,6 @@ return {
         "nyoom-engineering/oxocarbon.nvim",
         -- config = function()
         --     vim.cmd('colorscheme oxocarbon')
-        --     setTransparent()
         -- end
 
     },
@@ -17,15 +16,20 @@ return {
         "catppuccin/nvim",
         name = "catppuccin",
         priority = 1000,
+        config = function()
+            require("catppuccin").setup()
+            vim.cmd("colorscheme catppuccin-macchiato")
+            -- setTransparent()
+        end
 
     },
     {
         "projekt0n/github-nvim-theme",
         tag = "v0.0.7",
-        config = function()
-            vim.cmd('colorscheme github_dark_colorblind')
-            setTransparent()
-        end
+        -- config = function()
+        --     vim.cmd('colorscheme github_dark_colorblind')
+        --     setTransparent()
+        -- end
     },
 
     -- vscode

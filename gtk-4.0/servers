@@ -23,12 +23,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="smb://100.72.222.108/" added="2024-02-01T00:03:19.225303Z" modified="2024-02-01T00:03:19.225311Z" visited="2024-02-01T00:03:19.225306Z">
+  <bookmark href="smb://100.72.222.108/" added="2024-02-01T00:03:19.225303Z" modified="2024-02-09T13:28:19.213098Z" visited="2024-02-09T13:28:19.213096Z">
     <title>Windows shares on 100.72.222.108</title>
     <info>
       <metadata owner="http://freedesktop.org">
         <bookmark:applications>
-          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-02-01T00:03:19.225309Z" count="1"/>
+          <bookmark:application name="org.gnome.Nautilus" exec="&apos;org.gnome.Nautilus %u&apos;" modified="2024-02-09T13:28:19.213097Z" count="3"/>
         </bookmark:applications>
       </metadata>
     </info>
