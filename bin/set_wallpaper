@@ -1,4 +1,5 @@
-Wall=$(cat ~/.config/bin/current_wallpaper.txt)
+#!/bin/bash
+Wall=$(cat ~/.config/current_wallpaper.txt)
 
-feh --bg-fill ~/.config/wallpapers
+feh --bg-fill ~/.config/wallpapers/$Wall
 

@@ -8,6 +8,7 @@ else
     rm ~/.bashrc
     cp ~/.config/bashrclinux ~/.bashrc
 fi
+sudo cp ~/.config/bin/* /usr/local/bin/
 source ~/.bashrc
 mkdir ~/.local/share/rofi
 sudo apt install curl
