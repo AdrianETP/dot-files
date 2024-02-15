@@ -12,4 +12,8 @@ shift +alt - l : yabai -m window --warp east
 shift + alt - space : yabai -m space --rotate 90
 
 ## toggle window fullscreen zoom
-ctrl + alt - f : yabai -m window --toggle zoom-fullscreen
+ alt - f : yabai -m window --toggle zoom-fullscreen
+
+ alt - return : alacritty
+
+ shift + alt - r : yabai --restart-service && skhd --restart-service
