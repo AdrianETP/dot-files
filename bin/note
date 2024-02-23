@@ -1,3 +1,0 @@
-#!/bin/bash
-
-alacritty -e nvim /home/adrian/notes/$1

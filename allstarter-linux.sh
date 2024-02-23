@@ -32,10 +32,8 @@ sudo apt install polybar -y
 sudo apt install arandr -y
 
 # neofetch
-sudo apt install neofetch -y
+sudo apt install fastfetch -y
 
-#lolcat
-sudo apt install lolcat -y
 
 # feh
 sudo apt install feh -y

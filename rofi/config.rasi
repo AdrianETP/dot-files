@@ -38,4 +38,8 @@ configuration{
 //@theme "/home/adrian/.local/share/rofi/themes/rounded-red-dark.rasi"
 //@theme "/home/adrian/.local/share/rofi/themes/rounded-common.rasi"
 //@theme "/home/adrian/.local/share/rofi/themes/spotlight.rasi"
+//@theme "/home/adrian/.local/share/rofi/themes/catppuccin-mocha.rasi"
+//@theme "/home/adrian/.local/share/rofi/themes/launchpad.rasi"
+//@theme "/home/adrian/.local/share/rofi/themes/catppuccin-mocha.rasi"
+//@theme "/home/adrian/.local/share/rofi/themes/spotlight-dark.rasi"
 @theme "/home/adrian/.local/share/rofi/themes/catppuccin-mocha.rasi"

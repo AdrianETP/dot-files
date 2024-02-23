@@ -1,9 +1,20 @@
-function setTransparent()
-    vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-    vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-end
-
 return {
+    {
+        "xiyaowong/transparent.nvim",
+        config = function()
+            require("transparent").setup({ -- Optional, you don't have to run setup.
+                groups = {                 -- table: default groups
+                    'Normal', 'NormalNC', 'Comment', 'Constant', 'Special', 'Identifier',
+                    'Statement', 'PreProc', 'Type', 'Underlined', 'Todo', 'String', 'Function',
+                    'Conditional', 'Repeat', 'Operator', 'Structure', 'LineNr', 'NonText',
+                    'SignColumn', 'CursorLine', 'CursorLineNr', 'StatusLine', 'StatusLineNC',
+                    'EndOfBuffer',
+                },
+                extra_groups = {},   -- table: additional groups that should be cleared
+                exclude_groups = {}, -- table: groups you don't want to clear
+            })
+        end
+    },
     {
         "nyoom-engineering/oxocarbon.nvim",
         -- config = function()
@@ -31,11 +42,46 @@ return {
         --     setTransparent()
         -- end
     },
+    {
+        "rebelot/kanagawa.nvim",
+        config = function()
+            require('kanagawa').setup({
+                compile = false,  -- enable compiling the colorscheme
+                undercurl = true, -- enable undercurls
+                commentStyle = { italic = true },
+                functionStyle = {},
+                keywordStyle = { italic = true },
+                statementStyle = { bold = true },
+                typeStyle = {},
+                transparent = true,    -- do not set background color
+                dimInactive = true,    -- dim inactive window `:h hl-NormalNC`
+                terminalColors = true, -- define vim.g.terminal_color_{0,17}
+                colors = {             -- add/modify theme and palette colors
+                    palette = {},
+                    theme = { wave = {}, lotus = {}, dragon = {}, all = {} },
+                },
+                overrides = function(colors) -- add/modify highlights
+                    return {}
+                end,
+                theme = "wave",    -- Load "wave" theme when 'background' option is not set
+                background = {     -- map the value of 'background' option to a theme
+                    dark = "wave", -- try "dragon" !
+                    light = "lotus"
+                },
+            })
+            -- vim.cmd('colorscheme kanagawa')
+        end,
+
+    },
 
     -- vscode
     {
         "Mofiqul/vscode.nvim",
-        keys = "<leader>pc",
+        -- keys = "<leader>pc",
+        -- config = function()
+        --     vim.cmd("colorscheme vscode")
+        --     setTransparent()
+        -- end
     },
 
     -- tokyo night
@@ -52,7 +98,6 @@ return {
         --         style = 'cool'
         --     }
         --     vim.cmd('colorscheme onedark')
-        --     setTransparent()
         -- end
         -- keys = "<leader>pc"
     },
@@ -96,5 +141,10 @@ return {
     {
         "rose-pine/neovim",
         name = "rose-pine",
+        -- config = function()
+        --     require("rose-pine").setup()
+        --     vim.cmd("colorscheme rose-pine")
+        --     setTransparent()
+        -- end
     },
 }

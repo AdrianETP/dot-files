@@ -1,4 +1,5 @@
 #!/bin/bash
 device=$(printf "iPad\nMac\niPhone" | rofi -dmenu -p "clipboard device")
 cat ~/.$device | xclip -selection clipboard
+xdotool type "$(cat ~/.$device)"
 rm ~/.$device
