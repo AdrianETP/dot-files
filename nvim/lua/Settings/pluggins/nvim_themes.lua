@@ -27,11 +27,11 @@ return {
         "catppuccin/nvim",
         name = "catppuccin",
         priority = 1000,
-        config = function()
-            require("catppuccin").setup()
-            vim.cmd("colorscheme catppuccin-mocha")
-            -- setTransparent()
-        end
+        -- config = function()
+        --     require("catppuccin").setup()
+        --     vim.cmd("colorscheme catppuccin-mocha")
+        --     -- setTransparent()
+        -- end
 
     },
     {
@@ -92,13 +92,13 @@ return {
     -- onedark
     {
         "navarasu/onedark.nvim",
-        -- config = function()
-        --     require('onedark').setup {
-        --
-        --         style = 'cool'
-        --     }
-        --     vim.cmd('colorscheme onedark')
-        -- end
+        config = function()
+            require('onedark').setup {
+
+                style = 'cool'
+            }
+            vim.cmd('colorscheme onedark')
+        end
         -- keys = "<leader>pc"
     },
     -- vscode
