@@ -43,4 +43,5 @@ configuration{
 //@theme "/home/adrian/.local/share/rofi/themes/catppuccin-mocha.rasi"
 //@theme "/home/adrian/.local/share/rofi/themes/spotlight-dark.rasi"
 //@theme "/home/adrian/.local/share/rofi/themes/catppuccin-mocha.rasi"
-@theme "/home/adrian/.local/share/rofi/themes/spotlight-dark.rasi"
+//@theme "/home/adrian/.local/share/rofi/themes/spotlight-dark.rasi"
+@theme "/home/adrian/.local/share/rofi/themes/catppuccin-mocha.rasi"

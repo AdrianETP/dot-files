@@ -95,7 +95,7 @@ return {
         config = function()
             require('onedark').setup {
 
-                style = 'cool'
+                -- style = 'cool'
             }
             vim.cmd('colorscheme onedark')
         end
