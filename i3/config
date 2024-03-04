@@ -228,6 +228,8 @@ for_window [class="^.*"] focus
 
 # capslock to escape
 exec_always setxkbmap -layout dvorak && setxkbmap -option caps:ctrl_modifier
+exec_always setxkbmap -option caps:ctrl_modifier
+
 bindsym $mod+Control+p exec setxkbmap -layout es && setxkbmap -option caps:ctrl_modifier
 bindsym $mod+Control+r exec setxkbmap -layout dvorak && setxkbmap -option caps:ctrl_modifier
 
@@ -235,7 +237,7 @@ bindsym $mod+Control+r exec setxkbmap -layout dvorak && setxkbmap -option caps:c
 # input * xkb_layout "dvorak"
 exec_always ~/.config/bin/set_wallpaper.sh
  
- exec_always picom --experimental-backends --backend glx # exec_always compton
+ exec_always picom 
  exec_always numlockx
 
 
@@ -252,6 +254,7 @@ assign [class="whatsdesk"] $ws3
 assign [class="discord"] $ws3
 assign [class="thunderbird-default"] $ws3
 assign [class="Firefox-esr"] $ws4
+assign [class="firefox"] $ws4
 assign [class="apple-music-for-linux"] $ws4
 assign [class="org.gnome.Nautilus"] $ws5
 assign [class="libreoffice-startcenter"] $ws6
