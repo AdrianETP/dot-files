@@ -229,11 +229,11 @@ bar {
 for_window [class="^.*"] focus
 
 # capslock to escape
-exec_always setxkbmap -layout dvorak && setxkbmap -option caps:ctrl_modifier
+exec_always setxkbmap -layout us -variant dvorak && setxkbmap -option caps:ctrl_modifier
 exec_always setxkbmap -option caps:ctrl_modifier
 
 bindsym $mod+Control+p exec setxkbmap -layout es && setxkbmap -option caps:ctrl_modifier
-bindsym $mod+Control+r exec setxkbmap -layout dvorak && setxkbmap -option caps:ctrl_modifier
+bindsym $mod+Control+r exec setxkbmap -layout us -variant dvorak && setxkbmap -option caps:ctrl_modifier
 
 # input * xkb_options "caps:ctrl_modifier"
 # input * xkb_layout "dvorak"
@@ -258,7 +258,7 @@ assign [class="thunderbird-default"] $ws3
 assign [class="Firefox-esr"] $ws4
 assign [class="firefox"] $ws4
 assign [class="apple-music-for-linux"] $ws4
-assign [class="org.gnome.Nautilus"] $ws5
+assign [class="Thunar"] $ws5
 assign [class="libreoffice-startcenter"] $ws6
 assign [class="libreoffice-writer"] $ws6
 assign [class="libreoffice-calc"] $ws6

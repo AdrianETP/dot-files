@@ -7,7 +7,6 @@ return {
     ft = "norg",   -- lazy load on file type
     cmd = "Neorg", -- lazy load on command
     config = function()
-        vim.g.neorg_journal_folder = "~/notes/journal/"
         require("neorg").setup {
             load = {
                 ["core.defaults"] = {},  -- Loads default behaviour
