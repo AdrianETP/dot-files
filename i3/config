@@ -267,4 +267,5 @@ assign [class="Postman"] $ws7
 assign [class="MongoDB Compass"] $ws7
 assign [class="SimpleScreenRecorder"] $ws8
 assign [class="obsidian"] $ws9
+assign [class="AppFlowy"] $ws9
 assign [class="Audacity"] $ws10
